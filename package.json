@@ -1,0 +1,32 @@
+{
+  "name": "mqtt-broker",
+  "version": "1.0.0",
+  "description": "MQTT broker for all purposes",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev src/index.ts"
+  },
+  "keywords": [
+    "broker",
+    "mqtt",
+    "aedes"
+  ],
+  "author": "OriginZero",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-only-warn": "^1.1.0"
+  },
+  "dependencies": {
+    "aedes": "^0.50.0",
+    "mqtt": "^4.3.7",
+    "ts-node-dev": "^2.0.0"
+  }
+}
